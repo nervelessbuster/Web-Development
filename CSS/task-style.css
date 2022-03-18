@@ -1,0 +1,30 @@
+h1{
+    color: brown;
+}
+body{
+    background-color: #fcf4a3;
+}
+span{
+    border-style: double;
+    padding: 10px;
+    margin: 0 5px 0 5px;
+}
+.profit{
+    background-color: red;
+    border-style: none;
+    padding: 0;
+}
+.expenses{
+    border-style: none;
+    padding: 0;
+    background-color: deeppink;
+}
+.income{
+    border-style: none;
+    padding: 0;
+    background-color: aquamarine;
+}
+.no-padding{
+    padding: 0;
+    margin: 0 0 0 5px;
+}

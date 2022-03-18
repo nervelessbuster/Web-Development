@@ -1,0 +1,21 @@
+div{
+    background-color: lightsalmon;
+    /* height: 150px; */
+    /* width: 150px; */
+    /* position: relative; */
+    /* top: 500px; */
+    /* left: 400px; */
+}
+.parent-element{
+    border: 3px solid #ff0000;
+    position: relative;
+    height: 800px;
+}
+.main-element{
+    position: sticky;
+    background-color: yellow;
+    padding: 10px;
+    top: 10px;
+    /* left: 10px; */
+    /* bottom: 10px; */
+}

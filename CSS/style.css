@@ -1,0 +1,168 @@
+
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+h1{
+   color: white; /*The text color will be white*/
+   /* text-align: center; */
+}
+.p{
+   /* font-size: 50px; */
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* color: blueviolet; */
+   color: #ffffff ;
+   color: white;
+   /* color: rgb(255, 255, 255); */
+   /* color: hsl(344, 80%, 40%); */
+   /* text-align: right;
+   text-align: left;
+   text-decoration: underline;
+   text-decoration: overline;
+   text-decoration: line-through; */
+   word-spacing: 10px;
+   font-family: arial;
+   /* font-family: 'Times New Roman'; */
+   text-transform: uppercase;
+   text-transform: capitalize;
+   font-weight: 800;
+   line-height: 1.5;
+}
+/* border */
+.border{
+   border-style: solid; 
+   border-width: 5px 20px 4px 35px;
+   border-color: green yellow gray blanchedalmond;
+   color: red;
+   /* border: 1px solid yellow; */
+   border-left: 6px solid blue;
+   border-bottom: 10px solid red;
+}
+.border-radius{
+   border: 2px solid red;
+   border-radius: 10px;
+   padding: 10px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.margin{
+   border: 5px solid red;
+   
+}
+.margin-1{
+   background-color: blue;
+  /* margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 30px;
+  margin-bottom: 100px; */
+  margin: 50px 25px 60px 100px;
+  /* margin: 25px 50px; */
+  /* margin: 100px; */
+}
+.margin-2{
+   background-color: lightsalmon;
+   margin: 50px 20px;
+}
+.margin-3{
+   background-color: hotpink;
+   /* margin: 50px; */
+   /* margin: 0 30px 0 20px; */
+   margin-left: -20px;
+}
+.box-1{
+   background-color: azure;
+   height: 100px;
+   width: 100px;
+   margin: 0 auto;
+}
+#div{
+   margin-top: 1000px;
+}
+.padding{
+   /* padding-top: 100px;
+   padding-right: 20px;
+   padding-bottom: 50px;
+   padding-left: 25px; */
+
+   padding: 100px 20px 50px 25px;
+}
+.padding-1{
+   width: 300px;
+   background-color: yellow;
+}
+.padding-2{
+   width: 300px;
+   background-color: greenyellow;
+   padding: 30px;
+}
+.padding-3{
+   width: 300px;
+   background-color: greenyellow;
+   padding: 30px;
+   box-sizing: border-box;
+}
+.ul{
+   list-style-type: upper-alpha;
+   background-color: aquamarine;
+}
+.ol{
+   list-style-type: lower-alpha;
+   background-color: #3399ff;
+   padding: 20px;
+   margin: 20px;
+}
+li{
+   background-color: white;
+   margin: 5px;
+
+}
+ol li{
+   color: purple;
+   padding: 5px;
+   list-style-position: inside;
+}
+/* ************************* */
+/* a{
+   text-decoration: none;
+   font-size: 24px;
+}
+
+a:link{
+   color: red;
+}
+a:visited{
+   color: green;
+}
+a:hover{
+   color: hotpink;
+   background-color: lightgreen;
+}
+a:active{
+   color: blue;
+   text-decoration: underline;
+   background-color: #3399ff;
+} */
+a:link, a:visited{
+   background-color: #3399ff;
+   color: white;
+   padding: 15px 25px;
+   text-decoration: none;
+   margin: 10px;
+}
+a:hover, a:active{
+   background-color: blue;
+
+}
+a{
+   cursor: pointer;
+   cursor: auto;
+   cursor: default;
+   cursor: e-resize;
+   cursor: move;
+   cursor: n-resize;
+   cursor: progress;
+   cursor: crosshair;
+   cursor: help;
+   cursor: wait;
+   cursor: se-resize;
+}

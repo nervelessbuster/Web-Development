@@ -1,0 +1,16 @@
+div{
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 8px;
+    text-align: center;
+
+
+}
+span{
+    margin-right: 20px ;
+    /* background-color: aqua; */
+    /* padding: 20px; */
+    color: whitesmoke;   
+}
+span i{
+    margin-right: 5px;
+}

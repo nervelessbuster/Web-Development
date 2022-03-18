@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table, td,th {
+        border: 1px solid blue;
+        border-collapse: collapse;
+      }
+      table{
+          width: 50%;
+          margin: auto;
+          text-align: center;
+          background-color: lightcoral;
+      }
+      th{
+          background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <caption>
+          My timetable
+        </caption>
+        <tr>
+          <th>time</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thur</th>
+          <th>Fri</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00</td>
+          <td>computer</td>
+          <td>english</td>
+          <td>economics</td>
+          <td>biology</td>
+          <td>maths</td>
+        </tr>
+        <tr>
+          <td colspan="6" style="text-align: center">Lunch</td>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td>computer</td>
+          <td>english</td>
+          <td>economics</td>
+          <td>biology</td>
+          <td>maths</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td>computer</td>
+          <td>english</td>
+          <td>economics</td>
+          <td>biology</td>
+          <td>maths</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6" style="text-align: center">table 1.1</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        Column span
+      </caption>
+      <tr>
+        <th colspan="2">Movies</th>
+      </tr>
+      <tr>
+        <td>Horror</td>
+        <td>Action</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        Row span
+      </caption>
+      <tr>
+        <th rowspan="4">Movie genre</th>
+      </tr>
+      <tr>
+        <td>horror</td>
+      </tr>
+      <tr>
+        <td>Action</td>
+      </tr>
+      <tr>
+        <td>romance</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        Movie
+      </caption>
+      <tr>
+        <th>year</th>
+        <th>title</th>
+        <th>genre</th>
+      </tr>
+      <tr>
+        <td>
+            <p>2020</p>
+            <ul>
+                <li>This movie is interesting </li>
+            </ul>
+
+        </td>
+        <td>Just Mercy</td>
+        <td>drama</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        my personal timetable
+      </caption>
+      <tr>
+        <td rowspan="6">Hourly</td>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>Computer</td>
+        <td>Economics</td>
+        <td>Biology</td>
+        <td>English</td>
+        <td>Mathematics</td>
+      </tr>
+      <tr>
+        <td>Computer</td>
+        <td>Economics</td>
+        <td>Biology</td>
+        <td>English</td>
+        <td>Mathematics</td>
+      </tr>
+      <tr>
+        <td colspan="5">Lunch</td>
+      </tr>
+      <tr>
+        <td>Computer</td>
+        <td>Economics</td>
+        <td>Biology</td>
+        <td>English</td>
+        <td>Mathematics</td>
+      </tr>
+      <tr>
+        <td>Computer</td>
+        <td>Economics</td>
+        <td>Biology</td>
+        <td>English</td>
+        <td>Mathematics</td>
+      </tr>
+    </table>
+  </body>
+</html>

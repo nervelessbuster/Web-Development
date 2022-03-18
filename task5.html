@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form name="myForm" action="mailto:teslim38@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()"> 
+     <h1>
+         "Pimp my Shoes" Context Entry Form
+     </h1>
+     <p>Want to make your old sneakers for a custom pair of Forefields? Make a case for why your shoes have got 
+         to go and you maay be one of ten lucky winners. 
+     </p>
+     <fieldset>
+         <legend>Contest Entry Informant</legend>
+         <ul>
+             <li>
+                 <label for="">Name</label>
+                 <input type="text" name="name" placeholder="Enter your name">
+             </li>
+             <li>
+                 <label for="">Email</label>
+                 <input type="email" name="email" placeholder="abc@gmail.com" disabled>
+             </li>
+             <li>
+                 <label for="">Phone</label>
+                 <input type="phone" name="phone" placeholder="enter your phone number">
+             </li>
+             <li>
+                 <label for="">My shoes are SO old...</label> <br>
+                 <textarea name="message" id="" cols="40" rows="6" placeholder="Enter your message"></textarea>
+             </li>
+         </ul>
+         <h3>Design Your Custom Forcefields:</h3>
+         <fieldset>
+             <legend>Custom shoe design</legend>
+             <section style="border: 2px solid grey; padding: 2px;">
+                 <p>Color (choose one)</p> 
+                 <ul>
+                     <li><input type="radio" name="color" value="red" id="">Red</li>
+                     <li><input type="radio" name="color" id="" value="blue">Blue</li>
+                     <li><input type="radio" name="color" id="" value="black">Black</li>
+                     <li><input type="radio" name="color" id="" value="silver">Silver</li>
+                 </ul>
+             </section>
+         
+         <fieldset>
+             <legend>Features(Choose as many as you want)</legend>
+             <ul>
+                <li><input type="checkbox" name="features" id="" value="sparkley-laces">Sparkley laces</li>
+                <li><input type="checkbox" name="features" id="" value="metallic-logo">Metallic logo</li>
+                <li><input type="checkbox" name="features" id="" value="light-up-heels">Light-up heels</li>
+                <li><input type="checkbox" name="features" id="" value="mp3-enabled">MP3-enabled</li>
+            </ul>
+         </fieldset>
+         <fieldset>
+             <legend>Size(sizes reflect men's sizing):</legend>
+             <select name="size" id="">
+                 <option value="5" name="5">5</option>
+                 <option value="4" name="4">4</option>
+                 <option value="3" name="3">3</option>
+             </select>
+         </fieldset>
+        </fieldset> <br>
+        <input type="submit" value="Pimp my shoes!">
+        <input type="reset" value="Reset"> <br> <br>
+        <input type="checkbox" name="agree" id="">Yes, send me news and special promotions by email. 
+     </fieldset>
+ </form>   
+ <script>
+    
+function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+ </script>
+</body>
+</html>

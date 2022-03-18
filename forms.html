@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #register-form{
+            background-color: lightcyan;
+            padding: 24px; ;
+            width: 300px; 
+            margin: 0 auto;
+
+        }
+        .input-class{
+            background-color: lightblue;
+           color: red;
+        }
+    </style>
+</head>
+<body>
+    <form id="register-form"  action="index.html" method="post">
+    
+        <div>
+        <label for=""> Full name</label> <br> 
+        <input type="text" name="fullname" class="input-class">
+    </div>
+    <div>
+        <label for="">Password</label> <br>
+        <input type="password" name="password" maxlength="5" class="input-class">
+    </div>
+    <div>
+        <label for="">Confirm Password</label> <br>
+        <input type="password" name="confirmpassword" maxlength="5" class="input-class">
+    </div>
+    <div>
+        <label for="">Email</label> <br>
+        <input type="email" name="email" class="input-class">
+    </div>
+    <div>
+        <label for="">Gender</label> <br>
+        <input type="radio">Male <input type="radio">
+        Female <input type="radio">Other
+    </div>
+    <div>
+        <label for="">Security question</label> <br>
+        <select name="Security-questions" id="">
+         <option value="">What is your first pet name?</option>   
+        <option value="">What was your first job?</option>
+        <option value="">What is your nickname?</option>
+    </select>
+
+    </div>
+    <div>
+        <label for="">Message</label> <br>
+        <textarea name="message" id="" cols="30" rows="6"></textarea>
+    </div>
+    <div>
+        <input type="checkbox">
+      <span>I agree to accept the terms and conditions </span>  
+    </div>
+    <input type="submit" value="Register"> 
+    <input type="reset" value="start over">
+    <input type="button" value="send">
+    <button>submit</button>
+    </form>
+    <hr> <hr>
+
+
+
+
+
+
+
+    <h1>Subscribe to our Newsletter</h1>
+     <p> Get Tech news from us by joining us</p>
+
+    <form action="" method="get">
+        <div>
+        <label for="name">Name</label> <br>
+        <input type="text" id="name">
+        </div> 
+        <br>
+        <div> 
+        <label for="">Email</label> <br>
+        <input type="email">
+        </div> <br> 
+        <!-- <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <br> -->
+        <!-- <input type="checkbox"> <span>Do you agree to our terms and conditions</span> <br> -->
+        <input type="Submit">
+    </form>
+    <hr>
+    <form action="">
+        <input type="text"> <br> <br>
+        <input type="email"> <br> <br>
+        <input type="password"> <br> <br>
+        <input type="checkbox"> <br> <br>
+        <input type="radio"> <br> <br>
+        <input type="number"> <br> <br>
+        <input type="date"> <br> <br>
+        <input type="datetime-local"><br> <br>
+        <input type="time"> <br> <br>
+        <input type="tel"> <br> <br>
+        <input type="month"> <br> <br>
+        <input type="file"> <br> <br>
+        <input type="color"> <br> <br>
+        <input type="search"> <br> <br>
+        <input type="button"> <br> <br>
+        <input type="submit"> 
+
+        
+    
+    </form>
+    <hr> <hr>
+    
+</body>
+</html>

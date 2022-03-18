@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+<style>
+form{
+    width: 1300px;
+    margin: 0 auto;
+    }
+h3{
+    text-align: right; color: brown;
+}
+input[type=text] {width: 800px; padding: 12px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+
+}
+.checkbox-align{
+    /* display: block; */
+     margin-left: 200px;
+      margin-right: 20px; 
+
+}
+input[type=checkbox] {
+    margin-left: 250px;
+      margin-right: 20px; 
+}
+.input-style{width: 800px; padding: 12px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+section{
+    background-color: #ccc; padding: 24px;
+}
+</style>
+</head>
+<body>
+    <h3>Student Registration Form</h3>
+    <section>
+    <form action="">
+       
+        <div>
+         <label for="">First Name:</label>
+         <input type="text">
+        </div><br> 
+      <div>
+         <label for="" class="align">Last Name:</label>
+         <input type="text">
+        </div><br> 
+      <div>
+         <label for="">Email:</label>
+         <input type="email" class="input-style">
+        </div><br> <br>
+      <div>
+         <label for="">Mobile:</label>
+         <input type="mobile" class="input-style">
+        </div><br> <br>
+      <div>
+         <label for="">Gender</label>
+         <input type="radio" class="checkbox-align"> <span>Male</span>  
+         <input type="radio" class="checkbox-align"> <span>Female</span> 
+        </div><br> <br>
+      <div>
+         <label for="">Date of Birth:</label>
+         <input type="date" class="input-style">
+        </div><br> <br>
+      <div>
+         <label for="">Address:</label>
+         <textarea name="Message" id="" cols="30" rows="10" class="input-style"></textarea>
+       </div><br> <br>
+     <div>
+         <label for="">City:</label>
+         <input type="text">
+     </div> <br>
+     <div>
+         <label for="">Area PIN:</label>
+         <input type="area-pin" class="input-style">
+     </div> <br>
+     <div>
+         <label for="">State:</label>
+         <input type="text"> 
+     </div> <br>
+     <div>
+         <label for="">Qualification:</label>
+         <select name="Select Qualification" id="" style="  margin-left: 200px; margin-right: 20px;">
+         <option value=""> Select Qualification</option>
+         <option value="">Bachelors Degree</option>
+         <option value="">Masters Degree</option>
+         </select>
+     </div> <br>
+      <div>
+        <label for="">Specialization:</label> <br>
+        <input type="checkbox" name="" id=""><span>Computer Science</span>  <br>
+        <input type="checkbox" name="" id=""><span>Information Technology</span> <br>
+        <input type="checkbox" name="" id=""><span>Computer Architecture</span> <br>
+        <input type="checkbox" name="" id=""><span>Tele Communication</span>
+      </div> <br>
+      <div>
+          <label for="">Password</label>
+          <input type="password" name="" id="" class="input-style">
+      </div> <br>
+      <div>
+          <input type="submit" value="Registered" style="background-color:lightgreen; color: white;">
+      </div>
+
+    </form>
+</section>
+
+</body>
+</html>

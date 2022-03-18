@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+    <style>
+        body{
+            margin: 0;
+        }
+    
+        #header{
+            background-color: lightskyblue;
+            padding: 24px;
+        }
+
+        #navbar{
+            background-color: lightsalmon; 
+            padding: 10px;
+           }
+
+           .menu{
+               text-transform: uppercase; 
+               background-color: lightcyan;
+               /* padding: 10px; */
+               margin: 10px;
+           }
+           #main-section{
+               background-color: lightgrey;
+               padding: 24px;
+           }
+           #section{
+               background-color: lightgreen;
+               padding: 15px;
+           }
+           .article{
+               background-color: lightgoldenrodyellow;
+               padding: 15px;
+               margin-top: 15px;
+               margin-bottom: 15px;
+           }
+           #footer{
+               background-color: lightpink;
+               padding: 24px;
+               text-align: center;
+               color:black;
+           }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <span class="menu">menu 1 </span>
+            <span class="menu">menu 2</span>
+            <span class="menu">menu 3</span>
+        </nav>
+    </header>
+
+    <main id="main-section">
+        <section id="section">
+            <article class="article">
+                <header>
+                    <h3>Article title one</h3>
+                    <a href="">Author one</a>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Quibusdam itaque consectetur, dolores quam quia aliquid, 
+                     odio ex veniam pariatur at quidem quas fuga. 
+                     Eos mollitia est quasi nisi ad et.
+                </p>
+            </article>
+            <article class="article">
+                <header>
+                    <h3>Article title two</h3>
+                    <a href="">Author two</a>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Quibusdam itaque consectetur, dolores quam quia aliquid, 
+                     odio ex veniam pariatur at quidem quas fuga. 
+                     Eos mollitia est quasi nisi ad et.
+                </p>
+            </article>
+        </section>
+    </main>
+   
+    <footer id="footer">
+        <p>copyright 2022</p>
+    </footer>
+</body>
+</html>
